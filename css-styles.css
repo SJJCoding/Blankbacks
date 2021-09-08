@@ -23,6 +23,8 @@ a:hover {
 
 img, video {
     margin-left: 20px;
+    border: 10px, solid, black;
+    border-radius: 10px;
 }
 
 
