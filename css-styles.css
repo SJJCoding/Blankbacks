@@ -1,20 +1,26 @@
-p, li, a {
+ p, li, a {
     color: rgb(6, 156, 250);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Poppins;
+    size: 24px;
   }
   
 h1, h2, h3, b {
     color: navy;
     margin-left: 20px;
-  }
+  } 
 
+h1 {
+    size: 32px;
+  }
+  
 a, p {
       margin-left: 20px;
-      color: rgb(0, 145, 235);
+      color: rgb(0, 145, 235);     
   }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+head, body, section {
+    font-family: Poppins;
+    vertical-align: middle;
 }
 
 a:hover {
@@ -23,8 +29,21 @@ a:hover {
 
 img, video {
     margin-left: 20px;
-    border: 10px, solid, black;
     border-radius: 10px;
+    display: inline;
 }
+
+hr {
+  margin: 20px;
+}
+
+.PT {
+  vertical-align: middle;
+  border-radius: round;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
 
 
